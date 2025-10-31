@@ -14,3 +14,187 @@ body,html{
     flex: 1;
     gap: 10px;
 }
+.logo{
+    min-width: 120px;
+    width: 120px;
+}
+#header-title .logo{
+    margin-left: 15%;
+}
+.lista{
+    display: flex;
+}
+.subs{
+    margin-right: 1vh;
+    margin-top: 2vh;  
+    list-style-type: none;
+}
+.subs a{
+    margin-right: 1px;
+    background-color: #0dcaf0;
+    color:white;
+    padding: 8px 40px;
+    border: 2px solid transparent;
+    transition: all 0.1s ease;
+}
+.subs a:hover{
+    background-color: white;
+    color: #0dcaf0;
+}
+.menu-drop{
+    list-style: none;
+    position: relative;
+    margin-bottom: 12vh;
+    margin-top: 0.5vh;
+}
+.menu-drop:hover .drop {
+    height: 300px ;
+}
+.menu-drop .drop{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 0;
+    overflow:hidden;
+    transition: .5s;
+}
+.menu-drop a {
+    margin-right: 40px;
+    background-color: #0dcaf0;
+    color:white;
+    padding: 8px 40px;
+    border: 2px solid transparent;
+    transition: all 0.1s ease;
+    display: block;
+}
+.drop a:hover {
+    background-color: white;
+    color:#0dcaf0;
+    border: 2px #0dcaf0 solid;
+}
+.drop{
+    text-align: center;
+    font-size: 13px;
+
+}
+#hero-container {
+    position:relative;
+    min-height: 700px;
+    max-height:700px;
+    width: 100%;
+    height: 70vh;
+    overflow: hidden;
+}
+#hero-text {
+    position:absolute;
+    z-index: 100;
+    color: white;
+    top: 40%;
+    width: 400px;
+    font-size: 48px;
+    font-weight: bolder;
+    width: 100%;
+    text-align: center;
+    text-shadow: black 2px 5px 5px;
+}
+.text-container{
+    text-align: justify;
+    padding: 20px;
+}
+.section-subtitle{
+    color:#0dcaf0;
+}
+@media (max-width:800px){
+    .text-container{
+        width: 100px;
+    }
+    .card-1{
+        width: 420px;
+    }
+    .find-us{
+        width: 420px;
+    }
+    .lista{
+        width:auto;
+       font-size: 9px;
+    }
+    .drop{
+        font-size: 9px;
+    }
+}
+@media (min-width: 800px) {
+    .text-container {
+        width: 800px;
+        margin: 0 auto;
+    }
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#background-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: blur(2px) brightness(0.6);
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: blur(2px) brightness(0.6);
+}
+
+#hero-text {
+    position: absolute;
+    z-index: 2;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: clamp(24px, 4vw, 48px);
+    font-weight: bolder;
+    text-align: center;
+    text-shadow: 2px 5px 5px black;
+    width: 90%;
+    max-width: 800px;
+}
+
+.section-title {
+    text-align: center;
+    color: #0ebcde;
+}
+.card-1{
+    background-color: rgb(241, 201, 217);
+    padding: 15px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+.text-container {
+    text-align: justify;
+    padding: 20px;
+}
+.find-us {
+    text-align: center;
+}
+#footer{
+    width: 100%;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    border-top: 1px #e4e4e4 solid;
+    padding-top: 8px;
+    font-size:8px;
+    color: #838383;
+}
+.cor-logo{
+    background-color: rgba(193, 228, 219);
+}
+.cor-fundo{
+    background-color: rgba(200, 193, 221);
+}
