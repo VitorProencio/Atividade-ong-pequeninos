@@ -110,19 +110,26 @@ body,html{
         width: 100px;
     }
     .card-1{
-        width: 420px;
+        width: 350px;
     }
     .find-us{
-        width: 420px;
+        width: 375px;
+    }
+    .subs{
+        display: flex;
+        width: 66%;
+        font-size: 13px;
+        height: 10%;
     }
     .lista{
-        width:auto;
-       font-size: 9px;
+        width: 90%;
+        padding: 2%;
     }
-    .drop{
-        font-size: 9px;
+    .menu-drop{
+        margin-top: 19px;
     }
 }
+
 @media (min-width: 800px) {
     .text-container {
         width: 800px;
