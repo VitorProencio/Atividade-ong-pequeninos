@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contato</title>
+    <link rel="stylesheet" href="../CSS/contato.css">
+</head>
+<body>
+    <header class="cor-logo" id="header">
+        <div id="header-title">
+            <img src="../imagens/Logo.png" class="logo">
+        </div>
+
+        <nav> 
+            <ul class="lista">
+                <li class="subs">
+                    <a href="projetos.html">Nosso Projeto</a>
+                    <a id="button" href="contato.html">Seja Voluntário</a>
+                        <dialog class="modal" open>
+                            <h2>O QUE VOCÊ GANHA NOS AJUDANDO?</h2>
+                            <p>
+                                A ONG Pequeninos oferece aos nossos voluntários a experiência de ajudar o próximo e colaborar para um mundo melhor! Ajudar o próximo fala mais  de si para a humanidade, ajuda um dos pequeninos!
+                            </p>
+                            <button>OK!</button>
+                        </dialog>
+                </li>
+                <li class="menu-drop"><a href="#">Início</a>
+                   <div class="drop">
+                        <a href="index.html">Página inicial</a>
+                        <a href="index.html#recebe-texto">Nossa História</a>
+                    </div>
+                </li>
+            </ul>    
+        </nav>
+    </header>
+
+    <main class="cor-fundo">
+        <section class="imagem-voluntario">
+            <img src="../imagens/voluntario.jpg" class="voluntariado"/>
+            <p class="subtitulo"><b>Cadastre-se abaixo</b></p>
+        </section>
+
+        <section class="corpo-formulario">    
+            <form id="formulario" class="formulario" method="post" action="#">
+                <fieldset class="formulario-padrao">
+                    <legend class="legenda">
+                        <strong>Formulário de Cadastro</strong>
+                    </legend>
+                    <div>
+                        <label class="item-formulario" for="nome">Nome:</label>
+                        <input class="input-padrao" type="text" name="nome_completo" id="nome" placeholder=" Informe seu nome...">
+                    </div><br>
+                    <div>
+                        <label class="item-formulario" for="email">E-mail:</label>
+                        <input class="input-padrao" type="text" name="email" id="email" placeholder=" Informe seu e-mail...">
+                    </div>
+                    <br>
+                    <div>
+                        <label class="item-formulario" for="cpf">CPF:</label>
+                        <input class="input-padrao" type="text" name="cpf" id="cpf" placeholder=" 000.000.000-00" maxlength="11">
+                    </div>
+                    <br>
+                    <div>
+                        <label class="item-formulario" for="telefone">Telefone:</label>
+                        <input class="input-padrao" type="text" name="telefone" id="telefone" placeholder=" (00) 00000-0000" maxlength="11">
+                    </div>
+                    <br>
+                    <div>
+                        <label class="item-formulario" for="nascimento">Nascimento:</label>
+                        <input class="input-padrao" type="date" name="nascimento" id="nascimento">
+                    </div>
+                    <br>
+                    <div>
+                        <label class="item-formulario" for="endereco">Endereço:</label>
+                        <input class="input-padrao" type="text" name="endereco" id="endereco" placeholder=" Rua, Avenida, n°">
+                    </div>
+                    <br>
+                    <div>
+                        <label class="item-formulario" for="cep">CEP:</label>
+                        <input class="input-padrao" type="text" name="cep" id="cep" placeholder=" 00000-000" maxlength="8">
+                    </div>
+                    <br>
+                    <div>
+                        <label class="item-formulario" for="cidade">Cidade:</label>
+                        <input class="input-padrao" type="text" name="cidade" id="cidade" placeholder=" Informe sua cidade...">
+                    </div>
+                    <br>
+                    <div>
+                        <label class="item-formulario" for="estado">Estado:</label>
+                        <input class="input-padrao" type="text" name="estado" id="estado" placeholder=" Informe o estado...">
+                    </div>
+                    <br>
+                    <button class="botao-sistema" type="submit">Enviar</button>
+                </fieldset>
+            </form>
+        </section>
+        
+        <section class="texto-principal final"><br>
+            <h2 class="subtitulo-2">Como nos encontrar</h2>
+            <p>Endereço: Rua das crianças, n° 98 - Jardim Boa Vida, Curitiba/PR</p>
+            <p>Telefone: (41) 3154-5555</p>
+            <p>E-mail: adm@ongpequeninos.org.br</p><br>
+        </section>
+    </main>
+    
+
+    <footer class="cor-logo"  id="rodape">
+       <img src="../imagens/Logo.png" class="logo"> 
+       <p>&copy; ONG PEQUENINOS. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="../JavaScript/contato.js"></script>
+
+    
+</body>
+</html>
