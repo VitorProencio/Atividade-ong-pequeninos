@@ -24,6 +24,9 @@ body,html{
 .lista{
     display: flex;
 }
+.btn-system{
+    background-color: #0dcaf0 !important;
+}
 .subs{
     margin-right: 1vh;
     margin-top: 2vh;  

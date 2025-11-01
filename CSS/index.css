@@ -21,6 +21,9 @@ body,html{
 #header-title .logo{
     margin-left: 15%;
 }
+.btn-system{
+    background-color: #0dcaf0 !important;
+}
 .lista{
     display: flex;
 }
@@ -107,13 +110,13 @@ body,html{
 }
 @media (max-width:800px){
     .text-container{
-        width: 100px;
+        width: auto;
     }
     .card-1{
-        width: 350px;
+        width: auto;
     }
     .find-us{
-        width: 375px;
+        width: auto;
     }
     .subs{
         display: flex;
@@ -132,7 +135,7 @@ body,html{
 
 @media (min-width: 800px) {
     .text-container {
-        width: 800px;
+        width: auto;
         margin: 0 auto;
     }
 }
