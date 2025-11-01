@@ -14,30 +14,43 @@
         <div id="header-title">
             <img src="imagens/Logo.png" class="logo">
         </div>
+
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+
+                <!-- Botão do menu hambúrguer -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
+                <!-- Menu colapsável -->
                 <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-                    <ul class="navbar-nav text-center gap-2">
-                        <li class="nav-item">
-                        <a class="btn btn-system text-white" href="projetos.html">Nosso Projeto</a>
+                    <ul class="navbar-nav text-center gap-2 flex-column flex-lg-row w-100">
+
+                        <!-- Botões normais -->
+                        <li class="nav-item my-1">
+                            <a class="btn btn-system text-white d-block w-100 w-lg-auto" href="projetos.html">Nosso Projeto</a>
                         </li>
-                        <li class="nav-item">
-                        <a class="btn btn-system text-white" href="contato.html">Seja Voluntário</a>
+                        <li class="nav-item my-1">
+                            <a class="btn btn-system text-white d-block w-100 w-lg-auto" href="contato.html">Seja Voluntário</a>
                         </li>
-                        <li class="nav-item dropdown">
-                        <a class="btn btn-system dropdown-toggle text-white" href="#" id="menuDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Menu
-                        </a>
-                        <ul class="dropdown-menu dropdown-menu-end text-center" aria-labelledby="menuDropdown">
-                            <li><a class="dropdown-item" href="index.html">Página inicial</a></li>
-                            <li><a class="dropdown-item" href="#recebe-texto">Nossa História</a></li>
-                        </ul>
+
+                        <!-- Dropdown -->
+                        <li class="nav-item dropdown my-1">
+                            <a class="btn btn-system dropdown-toggle text-white d-block w-100 w-lg-auto" href="#"
+                                id="menuDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Menu
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-end text-center">
+                                <li><a class="dropdown-item" href="index.html">Página inicial</a></li>
+                                <li><a class="dropdown-item" href="#recebe-texto">Nossa História</a></li>
+                            </ul>
+                        </li>
+
                     </ul>
                 </div>
+
             </div>
         </nav>
     </header>
